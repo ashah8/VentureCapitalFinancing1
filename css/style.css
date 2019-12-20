@@ -1,0 +1,444 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../purplelogo.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	Left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+.about {
+	background-color:hsl(0, 10%, 20%);
+	padding: 25px 25px 25px 25px;
+}
+
+.about h1{
+  	margin-bottom: 10px;
+ 	margin-right: 300px;
+ 	margin-left: 8px;
+	background-color:#803d7b;
+	border-style: ridge;  
+	border-width: 10px;/*do margins too*/
+	color:#ffffff;
+	border-radius: 5px;
+}
+
+.about p{
+	padding: 25px 25px 25px 25px;
+	color:#ffffff;
+}
+
+.about li{
+	padding: 3px 3px 3px 3px;
+	background-color:#2e0d1a;
+	color:#ffffff;
+}
+
+.breaktimeone{
+	padding: 25px;
+	background-image: url(../purplebreak.jpg);
+}
+
+.specialty{
+	background-color: #000000;
+	padding: 30px 65px 10px 25px;
+}
+
+.specialty p{
+	color: #fff;
+	padding: 10px 20px 20px 30px;
+}
+
+.specialty ol li{
+	padding: 10px 0px 10px 40px;
+	color: #fff;
+}
+
+.specialty ol{
+	padding: 0px 0px 0px 60px;
+}
+
+.specialty h1{
+	border-width: 10px;
+	border-style: ridge;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+	padding: 70px 25px 25px 25px;
+}
+
+.borderthis{
+	border-width: 10px;
+	border-style: ridge;
+	padding: 20px 0px 20px 0px;
+	color: #570470;
+}
+
+.mainportfolio{
+	background-color: #2b0320;
+}
+
+#k1{
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+.mainportfolio h1{
+	text-align: center;
+	padding: 30px 0px 25px 0px;
+	color: #ff96e1;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+}
+
+#kk1 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk1{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#k2{
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#kk2 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk2{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#k3{
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#kk3 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk3{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#k4{
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#kk4 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk4{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#k5{
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#kk5 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk5{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#k6{
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#kk6 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk6{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#k7{
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#kk7 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk7{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#k8{
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#kk8 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk8{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#k9{
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#kk9 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk9{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#k10{
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#kk10 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk10{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#k11{
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#kk11 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk11{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#kk12{                                                                               /*Don't use this for new elements*/
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#k12{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#kkk12{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+#k13{                                                                               /*Don't use this for new elements*/
+	text-align: center;
+	color: #ff96e1;
+	padding: 25px 0px 25px 0px;        /*This is a header*/
+}
+
+#kk13 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkkk13 {
+	text-align: center;                     /*This is an embedded sketch*/
+}
+
+#kkk13{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+
+.purplebreaktwo{
+	padding: 25px;
+	background-image: url(../purplebreak.jpg);
+}
+.contacting22{
+	padding: 25px;
+	background-color: #2b0320;
+	border-width: 10px;
+	border-style: ridge;
+}
+#contacting{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
+#contact3{               /*This is a paragraph*/
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	border-color: #ff96e1;
+	border-style: ridge;
+	border-width: 10px;
+	color: #ff96e1;
+}
